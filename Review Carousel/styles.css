@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.ContainerJudul {
+    margin-top: 25px;
+}
+
+.OurReviewsContainer {
+    font-size: 32px;
+}
+
+.ContainerUnderline {
+    display: flex;
+    justify-content: center;
+}
+
+.Underline {
+    margin-top: 10px;
+    background-color: #88CCF1;
+    width: 80px;
+    height: 4px;
+}
+
+.ContainerInfo {
+    position: relative;
+    margin-top: 15px;
+    max-width: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEEF0;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.bx-monitor {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: #3B82F6;
+    z-index: 999;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#Photos {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 210px;
+    height: 200px;
+    z-index: 2;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.BackgroundPhotos::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 130px;
+    background-color: #B4A6AB;
+    width: 210px;
+    height: 200px;
+    z-index: 1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;    
+}
+
+.Name {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Job {
+    font-weight: 500;
+    font-weight: bold;
+    color: #058ED9;
+}
+
+#Information {
+    max-width: 450px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.ContainerChange {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#Next,#Back {
+    cursor: pointer;
+    color: #3B82F6;
+    font-size: 32px;
+    border: none;
+}
+
+.Bottom {
+    margin-top: 25px;
+}
